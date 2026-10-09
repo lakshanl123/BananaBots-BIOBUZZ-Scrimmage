@@ -111,10 +111,10 @@ public class BIOBUZZStarterBotTeleOp extends OpMode {
                 gamepad1.left_trigger,
                 gamepad1.right_trigger
         );
-        if (gamepad1.dpad_down){
+        if (gamepad2.dpad_down){
             LAUNCHER_MIN_VELOCITY -= 20;
             LAUNCHER_TARGET_VELOCITY -= 20;
-        } else if (gamepad1.dpad_up){
+        } else if (gamepad2.dpad_up){
             LAUNCHER_MIN_VELOCITY += 20;
             LAUNCHER_TARGET_VELOCITY += 20;
         }
