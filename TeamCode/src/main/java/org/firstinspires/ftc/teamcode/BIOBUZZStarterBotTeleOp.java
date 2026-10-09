@@ -91,7 +91,7 @@ public class BIOBUZZStarterBotTeleOp extends OpMode {
                 gamepad1.right_stick_x
         );
 
-        intakePower = gamepad1.right_trigger - gamepad1.left_trigger;
+        intakePower = gamepad2.right_trigger - gamepad2.left_trigger;
 
         launch();
 
